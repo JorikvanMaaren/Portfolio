@@ -1,0 +1,81 @@
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+#home{
+    background-color: rgb(233, 233, 111);
+    min-height: 85vh;
+}
+
+
+
+#contact{
+    background-color:rgb(255, 103, 47);
+    min-height: 150vh;
+}
+
+#wraps{
+    background-color: skyblue;
+    min-height: 85vh;
+}
+
+#sushi{
+    background-color: rgb(220, 126, 188);
+    min-height: 85vh;
+    
+}
+
+#footer{
+    color:white;
+    background-color: rgb(193, 238, 104);
+}
+#card{
+   background-color: transparent ;
+   border-color: white;
+}
+
+#card0{
+    background-color: green ;
+    border-color: black;
+}
+
+#card1{
+    background-color: purple ;
+    border-color: white;
+}
+
+ #card2{
+    background-color: brown ;
+    border-color: white; 
+}
+
+ #card3{
+    background-color: yellow ;
+    border-color: white;
+}
+
+
+
+
+@media screen and (max-width:576px){
+    #titel{
+        display:none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #card0{
+        display:none;
+    }
+}
+
+@media screen and (max-width:576px){
+    #carousel{
+        display:none;
+    }
+}
+#nav{
+    background-color: rgb(193, 238, 104);
+}
+
